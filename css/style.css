@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: #efefef;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.card {
+  background: white;
+  width: 25%;
+  margin: 1rem;
+}
+
+.character {
+  padding: 1.5rem;
+}
+
+.title {
+  font-weight: bold;
+}
